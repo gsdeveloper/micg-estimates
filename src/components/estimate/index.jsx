@@ -17,7 +17,7 @@ const Estimate = () => {
         document={
           <PDFDocument jobsArray={jobsArray} totalValue={getTotalValue} />
         }
-        fileName="test.pdf"
+        fileName={`Orçamento MICG ${new Date().toLocaleDateString()}`}
       >
         Gerar PDF
         {({ blob, url, loading, error }) => console.log(url, loading, error)}
