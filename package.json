@@ -2,7 +2,7 @@
   "name": "micg-estimates",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://gsdeveloper.github.io/micg-estimates",
+  "homepage": "http://gsdeveloper.github.io/micg-estimates/",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@react-pdf/renderer": "^1.6.10",
