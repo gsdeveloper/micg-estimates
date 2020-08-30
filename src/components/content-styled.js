@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const ContentStyled = styled.div`
-  padding: 0 8%;
+  padding: 0 8% 80px 8%;
   max-width: 1038px;
   margin: auto;
 `;
