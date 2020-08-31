@@ -11,7 +11,7 @@ const Job = () => {
     <JobStyled key={el.id}>
       <LabelTitleStyled>
         Tarefa {i + 1}
-        <CloseIcon id={el.id} />
+        <CloseIcon jobId={el.id} />
       </LabelTitleStyled>
       <Fields index={i} />
     </JobStyled>
