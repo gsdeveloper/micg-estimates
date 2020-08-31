@@ -20,7 +20,6 @@ const Estimate = () => {
         fileName={`Orçamento MICG ${new Date().toLocaleDateString()}`}
       >
         Gerar PDF
-        {({ blob, url, loading, error }) => console.log(url, loading, error)}
       </GenerateButtonStyled>
     </>
   );
